@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base target="_top">
+
+  <meta charset="utf-8">
+  <title>Happy Spot</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+    integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
+</head>
+
+<body>
+  <h2>»»————-　♡♡♡　————-««</h2>
+</body>
+<h1>Welcome to Happy Spot!</h1>
+<p>Double click the map to add a happy spot</p>
+<div id="content">
+  <div id="map"></div>
+  <form id="findPlace" style="margin: 10px">
+    <label for="tSelect">What type of place would you like to visit? </label> <br /> <br />
+    <input type="checkbox" id="tPark" name="tSelect">
+    <label for="tPark">Park</label> <br /> <br />
+    <input type="checkbox" id="tRestaurant" name="tSelect">
+    <label for="tResteraunt">Restaurant</label> <br /> <br />
+    <input type="checkbox" id="tView" name="tSelect">
+    <label for="tView">View</label> <br /> <br />
+    <input type="checkbox" id="tMuseum" name="tSelect">
+    <label for="tMuseum">Museum</label> <br /> <br />
+    <input type="checkbox" id="tTrail" name="tSelect">
+    <label for="tTrail">Trail</label> <br /> <br />
+    <input type="checkbox" id="tOther" name="tSelect">
+    <label for="tOther">Other</label> <br /> <br />
+
+  </form>
+
+  <form id="submitMarker" style="display: none">
+    <p>»»————-　♡♡♡　————-««</p>
+    <label for="fSpot">Name of spot:</label><b /r>
+      <input type="text" id="fSpot"><br />
+      <label for="fTags">Type of spot:</label><br />
+      <label for="fTags">(park, restaurant, view, museum, trail, etc.)</label> <br />
+      <input type="text" id="fTags"><br />
+      <label for="fAddress">Enter the address:</label><br />
+      <input type="text" id="fAddress">
+      <br /> <br />
+      <label for="fZipcode">Enter the zipcode:</label><br />
+      <input type="text" id="fZipcode">
+      <br /><br />
+      <label for="fReasons">Why is this a happy place (Give a brief description):</label><br />
+      <input type="text" id="fReasons">
+      <br /><br />
+      <label for="fPicture">Insert a link for a photo (Leave blank if you don't want to):</label><br>
+      <input type="text" id="fPicture"> <br />
+      <input type="button" id="submit" value="Submit">
+      <p>»»————-　♡♡♡　————-««</p>
+  </form>
+</div>
+<script src=main.js></script>
+
+
+</body>
+<div class="aboutUs">
+  <h2>Happy Spot is an interactive map where people can suggest and find places that make them and others happy. Our
+    goal is to encourage people to step out of their comfort zone and explore new places near them through the eyes of
+    their community. It is easy to forget how many cool spots are hidden everywhere, so we have compiled a way to find
+    peoples' happy spots hidden in plain sight.<br /><br />
+    Our motivation for this project was the fact that it is sometimes hard to find new things that bring us joy. Not
+    only does Happy Spot introduce us to the unknown, but it also allows the user to submit new locations, further
+    contributing to our database of Happy Spots! :)
+  </h2>
+</div>
+<p> </p>
+
+</html>
