@@ -1,0 +1,51 @@
+ @import url('https://fonts.googleapis.com/css2?family=serif&display=swap');
+
+.heading {
+  border: 10px outset #778899;
+  height:30%;
+  width: 98%;
+  background-color: #FFFACD;    
+  text-align: center;
+  color: #F0FFF0
+  /*font-family:Georgia*/
+  display:flex;
+    justify-content: space-between;
+}
+
+html, body {
+  font-family:Monaco;
+  text-align: center;
+  height: 40%;
+  width: 99%;
+  background-color: #FFFFF0;
+  align-content: center;
+}
+
+.leaflet-container {
+  @media (max-width: 50px);
+  height: 500px;
+  width: 50%;
+  break-after: avoid;
+  border: 5px outset #000000;
+}
+
+#submitMarker {
+  width: 50%;
+  float: right;
+  border: 5px outset #000000;
+}
+
+#content {
+  display: flex;
+}
+
+.aboutUs {
+  border: 5px outset #778899;
+  width: 99%;
+  background-color: #FFFACD;    
+  text-align: center;
+  font-family:Monaco;
+  display:flex;
+    justify-content: space-between;
+}
+
